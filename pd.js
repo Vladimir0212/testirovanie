@@ -23,6 +23,6 @@ document.querySelector("#showResultsBtn").addEventListener("click", () => {
   if (input9.checked) countOfCorrectAnswers += 1
   if (input10.checked) countOfCorrectAnswers += 1
   document.querySelector("#results").style = "display: block"
-  document.querySelector("#resultText").textContent = countOfCorrectAnswers.toString() + "из 10"
+  document.querySelector("#resultText").textContent = countOfCorrectAnswers.toString() + " из 10"
   countOfCorrectAnswers = 0
 })
